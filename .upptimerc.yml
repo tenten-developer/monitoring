@@ -1,16 +1,17 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: tenten-developer # Your GitHub organization or username, where this repository lives
+repo: monitoring # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: APP2
+    url: $APP2_SITE
+  - name: APP4
+    url: $APP4_SITE
+  - name: APP5
+    url: $APP5_SITE
+
+assignees: # Users to assign downtime issues (optional)
+  - tenten-developer
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
