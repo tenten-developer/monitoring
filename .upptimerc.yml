@@ -9,6 +9,8 @@ sites:
     url: $APP4_SITE
   - name: APP5
     url: $APP5_SITE
+  - name: LB5
+    url: $LB5_SITE
 
 assignees: # Users to assign downtime issues (optional)
   - tenten-developer
